@@ -1,4 +1,62 @@
-<!DOKTYPE HTML>
-<html>
-  <p>mouad</p>
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1">
+        <title>module2-solution</title>
+        <style>.row{width:100%;}
+         *{box-sizing: border-box;
+          }
+         h1 {text-align: center;
+         margin-bottom: 15px;
+         margin-top: 50px;}
+         body{font-family: Arial, Helvetica, sans-serif;}
+         nav{
+             width:90%;
+             height:150px;
+             border:1px solid black; 
+             margin-right: auto;
+             margin-left: auto;
+             margin-bottom:25px;
+             color:rgb(82, 38, 3);
+             background: rgb(238, 186, 15);
+             overflow: hidden;
+             
+         }
+         p{width:90%;
+             padding: 5px;
+         }
+         span{width: 25%;
+         background-color: gray;
+         float:right;
+         text-align: center;
+         color: black;
+         }
+           
+         
+           
+         @media (min-width:992px){
+         .col-lg-4{
+         float:left;
+             width: 33.33%;
+           }
+           
+         }
+         @media (min-width:768px)and (max-width:991px){
+         .col-md-6,.col-md-12{
+             float:left;}
+         .col-md-6{
+             width:50%;
+         }
+         .col-md-12{width: 100%;}
+         </style>
+    </head>
+    <body>
+   <h1>Our Menu</h1>
+   <div class="row">
+<div class="col-lg-4 col-md-6 col-sm-12"><nav><span>Apple</span><p>An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus</nav></div>
+<div class="col-lg-4 col-md-6 col-sm-12"><nav><span>Banana</span><p>A banana is an elongated, edible fruit – botanically a berry–produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas.</nav></div>
+<div class="col-lg-4 col-md-12 col-sm-12 "><nav><span>Strowberry</span><p>The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit.</nav></div>   
+</div>
+    </body>
 </html>
